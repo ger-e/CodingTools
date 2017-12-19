@@ -37,3 +37,6 @@ def show_graph(graph_def, max_const_size=32):
         <iframe seamless style="width:1200px;height:620px;border:0" srcdoc="{}"></iframe>
     """.format(code.replace('"', '&quot;'))
     display(HTML(iframe))
+
+    # can then visualize the graph (after importing numpy as np) with the following code
+    # show_graph(tf.get_default_graph().as_graph_def())
