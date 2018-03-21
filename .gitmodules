@@ -1,3 +1,6 @@
 [submodule "jupyter_highlight_selected_word"]
 	path = jupyter_highlight_selected_word
 	url = https://github.com/jcb91/jupyter_highlight_selected_word
+[submodule "python-matlab-bridge"]
+	path = python-matlab-bridge
+	url = https://github.com/arokem/python-matlab-bridge
